@@ -84,7 +84,9 @@ Vagrant.configure("2") do |config|
 
     sudo apt-get install -y gdb libssl-dev libffi-dev
     ~/.pyenv/shims/pip install -U pip
-    ~/.pyenv/shims/pip install -U pwntools requests ipython
+    ~/.pyenv/shims/pip install -U pwntools requests ipython 
+    sudo ~/.pyenv/shims/pip install -U capstone
+    ~/.pyenv/shims/pip install -U ropgadget
     wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
 
   SHELL
