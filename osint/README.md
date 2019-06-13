@@ -1,3 +1,3 @@
-# Others
+### Others
 
-### PhoneInfoga
+[PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
